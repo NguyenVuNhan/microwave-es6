@@ -1,0 +1,41 @@
+# Ignore Nhan's local test folders
+info/
+lab/
+.tmp_versions/
+.vscode/
+.clang-format
+bin/
+build/
+googletest/
+include/
+
+# ======================================================================
+#                      Do not change any thing below
+# ======================================================================
+*.o
+*.ko
+*.cmd
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
